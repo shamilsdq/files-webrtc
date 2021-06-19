@@ -1,0 +1,8 @@
+#left_wrapper
+{
+    flex: 1 1 400px;
+
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}

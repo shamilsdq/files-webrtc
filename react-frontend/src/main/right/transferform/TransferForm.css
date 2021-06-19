@@ -1,0 +1,49 @@
+#transfer_form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#transfer_form input
+{
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+
+#peer_input
+{
+    font: 17px 'Noto Sans', Verdana, sans-serif;
+    font-weight: 400;
+
+    padding: 8px 10px;
+    outline: 0;
+    background: #ffffff;
+}
+
+
+#file_input
+{
+    font: 17px 'Noto Sans', Verdana, sans-serif;
+    font-weight: 400;
+
+    padding: 8px 10px;
+    background: #ffffff;
+}
+
+#file_input *
+{
+    background: #000000;
+}
+
+
+#transfer_form button
+{
+    font: 17px 'Noto Sans', Verdana, sans-serif;
+    font-weight: 400;
+
+    padding: 10px 20px;
+    margin: 10px 0 0 0;
+    background: #009900;
+}
