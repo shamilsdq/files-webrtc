@@ -25,9 +25,8 @@ class TransferForm extends Component
     {
         return(
             <section id="transfer_form">
-                
                 <label htmlFor="peer_input">USER</label>
-                <input type="text" id="peer_input" name="peer_input"
+                <input type="text" id="peer_input" name="peer_input" placeholder='receiver username'
                     onChange={(e) => this.setState({ peer: e.target.value })}/>
                 <label htmlFor="file_input">FILE</label>
                 <input type="file" id="file_input" name="file_input"

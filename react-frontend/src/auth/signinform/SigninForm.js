@@ -29,10 +29,10 @@ class SigninForm extends Component
         return(
             <section id="signin_form">
                 <label htmlFor="signin_username_input">USERNAME</label>
-                <input type="text" id="signin_username_input" namee="signin_username_input"
+                <input type="text" id="signin_username_input" namee="signin_username_input" placeholder="username"
                     value={this.state.username_input} onChange={(e) => this.setState({ username_input: e.target.value })}/>
                 <label htmlFor="signin_password_input">PASSWORD</label>
-                <input type="password" id="signin_password_input" name="signin_password_input"
+                <input type="password" id="signin_password_input" name="signin_password_input" placeholder="password"
                     value={this.state.password_input} onChange={(e) => this.setState({ password_input: e.target.value })}/>
                 <button onClick={this.signinHandler.bind(this)}>SIGN IN</button>
 

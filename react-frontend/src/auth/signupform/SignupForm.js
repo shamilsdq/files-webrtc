@@ -31,13 +31,13 @@ class SignupForm extends Component
         return(
             <section id="signup_form">
                 <label htmlFor="signup_username_input">USERNAME</label>
-                <input type="text" id="signup_username_input" namee="signup_username_input"
+                <input type="text" id="signup_username_input" namee="signup_username_input" placeholder="username"
                     value={this.state.username_input} onChange={(e) => this.setState({ username_input: e.target.value })}/>
                 <label htmlFor="signup_password_input">PASSWORD</label>
-                <input type="password" id="signup_password_input" name="signup_password_input"
+                <input type="password" id="signup_password_input" name="signup_password_input" placeholder="password"
                     value={this.state.password_input} onChange={(e) => this.setState({ password_input: e.target.value })}/>
                 <label htmlFor="signup_confirm_password_input">CONFIRM PASSWORD</label>
-                <input type="password" id="signup_confirm_password_input" name="signup_confirm_password_input"
+                <input type="password" id="signup_confirm_password_input" name="signup_confirm_password_input" placeholder="confirm password"
                     value={this.state.confirm_password_input} onChange={(e) => this.setState({ confirm_password_input: e.target.value })}/>
                 <button onClick={this.signupHandler.bind(this)}>CREATE ACCOUNT</button>
 
