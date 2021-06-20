@@ -1,0 +1,62 @@
+#auth_wrapper
+{
+    flex: 1 1 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#auth_hero
+{
+    flex: 0 0 500;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#auth_hero h1
+{
+    display: block;
+    padding: 5px;
+
+    font: 80px Georgia, serif;
+    font-weight: 400;
+}
+
+#auth_hero h1:last-child
+{
+    color: #FF0000;
+}
+
+
+#auth_form_wrapper
+{
+    flex: 0 0 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 40px;
+    margin: 50px 50px;
+    border-radius: 10px;
+    background: #DDDDDD;
+}
+
+
+#auth_form_wrapper > h2
+{
+    display: block;
+    margin-bottom: 50px;
+
+    font: 35px 'Noto Sans', Verdana, serif;
+    font-weight: 600;
+    color: #888888;
+}

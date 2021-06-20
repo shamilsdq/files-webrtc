@@ -14,12 +14,14 @@ class RightWrapper extends Component
             peer: null,
             file: null
         };
+        console.log(this.props.auth);
     }
 
     render()
     {
         return(
             <div id="right_wrapper">
+                <h2>FILE TRANSFER</h2>
                 <TransferForm auth={this.props.auth}/>
             </div>
         );

@@ -1,6 +1,5 @@
 import { Component } from 'react';
-import { Redirect } from 'react-router';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import './MainWrapper.css';
 
 import LeftWrapper from './left/LeftWrapper';

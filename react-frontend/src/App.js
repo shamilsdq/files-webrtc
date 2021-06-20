@@ -38,15 +38,15 @@ class App extends Component
 
     signin(username, password)
     {
-        var id = 1, username = "username", token = "jwt.token.here";
-        localStorage.setItem('auth_id', id);
-        localStorage.setItem('auth_username', username);
-        localStorage.setItem('auth_token', token);
+        var res_id = 1, res_username = "username", res_token = "jwt.token.here";
+        localStorage.setItem('auth_id', res_id);
+        localStorage.setItem('auth_username', res_username);
+        localStorage.setItem('auth_token', res_token);
         this.setState({
             auth: {
-                id: id,
-                username: username,
-                token: token
+                id: res_id,
+                username: res_username,
+                token: res_token
             }
         });
     }

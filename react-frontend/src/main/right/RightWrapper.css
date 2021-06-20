@@ -1,10 +1,23 @@
 #right_wrapper
 {
-    flex: 1 1 400px;
+    flex: 0 0 500px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+    margin: 15px;
+    border-radius: 10px;
     background: #DDDDDD;
+}
+
+#right_wrapper > h2
+{
+    display: block;
+    margin: 50px auto;
+
+    font: 35px 'Noto Sans', Verdana, serif;
+    font-weight: 600;
+    color: #888888;
 }
